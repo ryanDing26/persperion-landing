@@ -1,0 +1,13 @@
+.hero-section {
+    background-color: white;
+    display: flex;
+    align-content: center;
+}
+
+.fingertip {
+    color: aqua;
+}
+
+.hero-signup-button {
+    color: aqua;
+}

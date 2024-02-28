@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import Hero from './Hero.tsx'
 import Navigation from './Navigation.tsx'
 import About from './About.tsx'
+import Footer from './Footer.tsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
@@ -10,5 +11,6 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <Navigation />
     <Hero />
     <About />
+    <Footer />
   </React.StrictMode>
 )

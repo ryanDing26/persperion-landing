@@ -1,8 +1,10 @@
+import './Hero.css'
+
 function Hero() {
     return (
         <div className="hero-section">
             <div className="hero-signup">
-                <h3>The future of health, at your fingertip</h3>
+                <h3>The future of health, at your <span className="fingertip">fingertip</span></h3>
                 <h6>The accurate, touch-based sweat sensing technology</h6>
                 <input type="text" />
                 <button className="hero-signup-button">Be the first to know</button>

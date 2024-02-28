@@ -1,0 +1,16 @@
+.navbar {
+    display: flex;
+    background-color: white;
+}
+
+.nav-logo {
+    justify-content: flex-start;
+}
+
+.nav-buttons {
+    justify-content: flex-end;
+}
+
+.signup-button {
+    background-color: aqua;
+}
